@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\scott\\OneDrive\\Desktop\\TP8-PROGRA3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBB9A87-CBF8-4D53-BD0E-3883D367D3E6}|Vistas\\Vistas.csproj|c:\\users\\scott\\onedrive\\desktop\\tp8-progra3\\vistas\\listarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBB9A87-CBF8-4D53-BD0E-3883D367D3E6}|Vistas\\Vistas.csproj|solutionrelative:vistas\\listarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBB9A87-CBF8-4D53-BD0E-3883D367D3E6}|Vistas\\Vistas.csproj|c:\\users\\scott\\onedrive\\desktop\\tp8-progra3\\vistas\\agregarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBB9A87-CBF8-4D53-BD0E-3883D367D3E6}|Vistas\\Vistas.csproj|solutionrelative:vistas\\agregarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBB9A87-CBF8-4D53-BD0E-3883D367D3E6}|Vistas\\Vistas.csproj|c:\\users\\scott\\onedrive\\desktop\\tp8-progra3\\vistas\\agregarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BCBB9A87-CBF8-4D53-BD0E-3883D367D3E6}|Vistas\\Vistas.csproj|solutionrelative:vistas\\agregarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBB9A87-CBF8-4D53-BD0E-3883D367D3E6}|Vistas\\Vistas.csproj|c:\\users\\scott\\onedrive\\desktop\\tp8-progra3\\vistas\\eliminarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BCBB9A87-CBF8-4D53-BD0E-3883D367D3E6}|Vistas\\Vistas.csproj|solutionrelative:vistas\\eliminarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBB9A87-CBF8-4D53-BD0E-3883D367D3E6}|Vistas\\Vistas.csproj|c:\\users\\scott\\onedrive\\desktop\\tp8-progra3\\vistas\\eliminarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBB9A87-CBF8-4D53-BD0E-3883D367D3E6}|Vistas\\Vistas.csproj|solutionrelative:vistas\\eliminarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBB9A87-CBF8-4D53-BD0E-3883D367D3E6}|Vistas\\Vistas.csproj|c:\\users\\scott\\onedrive\\desktop\\tp8-progra3\\vistas\\listarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BCBB9A87-CBF8-4D53-BD0E-3883D367D3E6}|Vistas\\Vistas.csproj|solutionrelative:vistas\\listarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED74272-F775-4C86-A327-CB024BDB0EF8}|Datos\\Datos.csproj|c:\\users\\scott\\onedrive\\desktop\\tp8-progra3\\datos\\dbrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED74272-F775-4C86-A327-CB024BDB0EF8}|Datos\\Datos.csproj|solutionrelative:datos\\dbrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListarSucursales.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive\\Desktop\\TP8-PROGRA3\\Vistas\\ListarSucursales.aspx.cs",
+              "RelativeDocumentMoniker": "Vistas\\ListarSucursales.aspx.cs",
+              "ToolTip": "C:\\Users\\scott\\OneDrive\\Desktop\\TP8-PROGRA3\\Vistas\\ListarSucursales.aspx.cs",
+              "RelativeToolTip": "Vistas\\ListarSucursales.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:53:14.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ListarSucursales.aspx",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive\\Desktop\\TP8-PROGRA3\\Vistas\\ListarSucursales.aspx",
+              "RelativeDocumentMoniker": "Vistas\\ListarSucursales.aspx",
+              "ToolTip": "C:\\Users\\scott\\OneDrive\\Desktop\\TP8-PROGRA3\\Vistas\\ListarSucursales.aspx",
+              "RelativeToolTip": "Vistas\\ListarSucursales.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-27T19:42:53.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EliminarSucursales.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive\\Desktop\\TP8-PROGRA3\\Vistas\\EliminarSucursales.aspx.cs",
+              "RelativeDocumentMoniker": "Vistas\\EliminarSucursales.aspx.cs",
+              "ToolTip": "C:\\Users\\scott\\OneDrive\\Desktop\\TP8-PROGRA3\\Vistas\\EliminarSucursales.aspx.cs",
+              "RelativeToolTip": "Vistas\\EliminarSucursales.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:52:10.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EliminarSucursales.aspx",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive\\Desktop\\TP8-PROGRA3\\Vistas\\EliminarSucursales.aspx",
+              "RelativeDocumentMoniker": "Vistas\\EliminarSucursales.aspx",
+              "ToolTip": "C:\\Users\\scott\\OneDrive\\Desktop\\TP8-PROGRA3\\Vistas\\EliminarSucursales.aspx",
+              "RelativeToolTip": "Vistas\\EliminarSucursales.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-27T19:43:11.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AgregarSucursales.aspx",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive\\Desktop\\TP8-PROGRA3\\Vistas\\AgregarSucursales.aspx",
+              "RelativeDocumentMoniker": "Vistas\\AgregarSucursales.aspx",
+              "ToolTip": "C:\\Users\\scott\\OneDrive\\Desktop\\TP8-PROGRA3\\Vistas\\AgregarSucursales.aspx",
+              "RelativeToolTip": "Vistas\\AgregarSucursales.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-27T19:42:30.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AgregarSucursales.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive\\Desktop\\TP8-PROGRA3\\Vistas\\AgregarSucursales.aspx.cs",
+              "RelativeDocumentMoniker": "Vistas\\AgregarSucursales.aspx.cs",
+              "ToolTip": "C:\\Users\\scott\\OneDrive\\Desktop\\TP8-PROGRA3\\Vistas\\AgregarSucursales.aspx.cs",
+              "RelativeToolTip": "Vistas\\AgregarSucursales.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:50:10.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DBRepository.cs",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive\\Desktop\\TP8-PROGRA3\\Datos\\DBRepository.cs",
+              "RelativeDocumentMoniker": "Datos\\DBRepository.cs",
+              "ToolTip": "C:\\Users\\scott\\OneDrive\\Desktop\\TP8-PROGRA3\\Datos\\DBRepository.cs",
+              "RelativeToolTip": "Datos\\DBRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:51:11.708Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

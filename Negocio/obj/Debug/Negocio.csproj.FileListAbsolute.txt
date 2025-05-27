@@ -1,0 +1,11 @@
+C:\Users\scott\OneDrive\Desktop\TP8-PROGRA3\Negocio\bin\Debug\Negocio.dll
+C:\Users\scott\OneDrive\Desktop\TP8-PROGRA3\Negocio\bin\Debug\Negocio.pdb
+C:\Users\scott\OneDrive\Desktop\TP8-PROGRA3\Negocio\bin\Debug\Datos.dll
+C:\Users\scott\OneDrive\Desktop\TP8-PROGRA3\Negocio\bin\Debug\Entidades.dll
+C:\Users\scott\OneDrive\Desktop\TP8-PROGRA3\Negocio\bin\Debug\Datos.pdb
+C:\Users\scott\OneDrive\Desktop\TP8-PROGRA3\Negocio\bin\Debug\Entidades.pdb
+C:\Users\scott\OneDrive\Desktop\TP8-PROGRA3\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\scott\OneDrive\Desktop\TP8-PROGRA3\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\scott\OneDrive\Desktop\TP8-PROGRA3\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\scott\OneDrive\Desktop\TP8-PROGRA3\Negocio\obj\Debug\Negocio.dll
+C:\Users\scott\OneDrive\Desktop\TP8-PROGRA3\Negocio\obj\Debug\Negocio.pdb
