@@ -207,7 +207,7 @@
                 </td>
                 <td class="auto-style17" colspan="2">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="txtDireccion" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" OnTextChanged="txtDireccion_TextChanged"></asp:TextBox>
+                    <asp:TextBox ID="txtDireccion" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" OnTextChanged="Page_Load"></asp:TextBox>
                     <br />
                 </td>
                 <td class="auto-style13">&nbsp;</td>

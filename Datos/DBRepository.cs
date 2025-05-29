@@ -6,51 +6,57 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI.WebControls;
+using Entidades;
 
 namespace Datos
 {
     public class DBRepository
     {
-        private string DbConnection = @"Data Source=DESKTOP-GUU4RQA\SQLEXPRESS;Initial Catalog=BDSucursales;Integrated Security=True;TrustServerCertificate=True";
+        private string DbConnection = @"Data Source=CIRIACO\SQLEXPRESS;Initial Catalog=BDSucursales;Integrated Security=True;Encrypt=False";
         //Remplazar por "Data Source=localhost\\sqlexpress; Initial Catalog=BDSucursales;Integrated Security = True"; 
         //Antes de entregar
 
-
-        public DataTable ListarSucursal(string query)
+        public DataTable ListarSucursales(string query, SqlParameter parametro = null)
         {
+            DataTable dt = new DataTable();
+
             using (SqlConnection conn = new SqlConnection(DbConnection))
+            using (SqlCommand cmd = new SqlCommand(query, conn))
             {
-                conn.Open();
-                SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
-                DataTable table = new DataTable();
-                adapter.Fill(table);
-                return table;
+                if (parametro != null)
+                {
+                    cmd.Parameters.Add(parametro);
+                }
+
+                using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
+                {
+                    adapter.Fill(dt);
+                }
             }
+
+            return dt;
         }
 
-        public void InsertarSucursal(string nombreSucursal, string descripcionSucursal, string direccionSucursal, string idProvincia)
+
+        public void InsertarSucursal(Sucursal suc, string query)
         {
             using (SqlConnection conn = new SqlConnection(DbConnection))
             {
-                string sql = "INSERT INTO Sucursal (NombreSucursal, DescripcionSucursal, DireccionSucursal, Id_ProvinciaSucursal) " +
-                    "VALUES (@nombre, @descripcion, @direccion, @idProvincia)";
-
-                SqlCommand comando = new SqlCommand(sql, conn);
-                comando.Parameters.AddWithValue("@nombre", nombreSucursal);
-                comando.Parameters.AddWithValue("@descripcion", descripcionSucursal);
-                comando.Parameters.AddWithValue("@direccion", direccionSucursal);
-                comando.Parameters.AddWithValue("@idProvincia", idProvincia);
+                SqlCommand comando = new SqlCommand(query, conn);
+                comando.Parameters.AddWithValue("@nombre", suc.NombreSucursal);
+                comando.Parameters.AddWithValue("@descripcion", suc.DescripcionSucursal);
+                comando.Parameters.AddWithValue("@direccion", suc.DireccionSucursal);
+                comando.Parameters.AddWithValue("@idProvincia", suc.IdProvinciaSucursal);
 
                 conn.Open();
                 comando.ExecuteNonQuery();
             }
         }
 
-        public void CargarProvincias(DropDownList ddlProvincias)
+        public DataTable ObtenerProvincias(string query)
         {
             using (SqlConnection conn = new SqlConnection(DbConnection))
             {
-                string query = "SELECT Id_Provincia, DescripcionProvincia FROM Provincia";
 
                 SqlCommand cmd = new SqlCommand(query, conn);
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -59,65 +65,23 @@ namespace Datos
                 conn.Open();
                 da.Fill(dt);
 
-                ddlProvincias.DataSource = dt;
-                ddlProvincias.DataTextField = "DescripcionProvincia";  
-                ddlProvincias.DataValueField = "Id_Provincia";     
-                ddlProvincias.DataBind();
-
-                ddlProvincias.Items.Insert(0, new ListItem("<Seleccionar provincia>", ""));
+                return dt;
             }
         }
-        
-        public Boolean EliminarSucursal(String idSucursal)
+
+
+        public int EliminarSucursal(String idSucursal)
         {
 
             SqlConnection conn = new SqlConnection(DbConnection);
 
             conn.Open();
-            String query = "Delete From Sucursal WHERE Id_Sucursal = " + idSucursal; ;
+            String query = "Delete From Sucursal WHERE Id_Sucursal = " + idSucursal;
             SqlCommand cmd = new SqlCommand(query, conn);
             int columnasAfectadas = cmd.ExecuteNonQuery();
             conn.Close();
 
-
-
-            if (columnasAfectadas.Equals(0))
-            {
-                return false;
-            }
-            return true;
-        }
-
-        public DataTable FiltrarSucursal(int idSucursal)
-        {
-
-            DataTable dt = new DataTable();
-
-            
-            
-                string query = @"SELECT s.Id_Sucursal AS [Id Sucursal],
-                            s.NombreSucursal AS [Nombre],
-                            s.DescripcionSucursal AS [Descripcion],
-                            p.DescripcionProvincia AS [Provincia],
-                            s.DireccionSucursal AS [Direccion]
-                     FROM Sucursal s
-                     INNER JOIN Provincia p ON p.Id_Provincia = s.Id_ProvinciaSucursal
-                     WHERE s.Id_Sucursal = @idSucursal";
-
-                using (SqlConnection conn = new SqlConnection(DbConnection))
-                using (SqlCommand cmd = new SqlCommand(query, conn))
-                {
-                    cmd.Parameters.AddWithValue("@idSucursal", idSucursal);
-                    using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
-                    {
-                        adapter.Fill(dt);
-                    }
-                }
-
-                return dt;
-            
-
+            return columnasAfectadas;
         }
     }
-
 }

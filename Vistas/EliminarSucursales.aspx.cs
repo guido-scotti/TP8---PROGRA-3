@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Datos;
+using Negocio;
 
 namespace Vistas
 {
@@ -18,10 +19,8 @@ namespace Vistas
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            NegocioSucursal negocio = new NegocioSucursal();
 
-            DBRepository dbRepository = new DBRepository();
-
-           
             if (!int.TryParse(TextBox1.Text, out int numero))
             {
                 label3.Text = "Error: Ingrese un valor numérico válido";
@@ -30,7 +29,7 @@ namespace Vistas
             else
             {
                 String idRepository = TextBox1.Text;
-                Boolean elimSucursal = dbRepository.EliminarSucursal(idRepository);
+                Boolean elimSucursal = negocio.EliminarSucursal(idRepository);
 
                 if (!elimSucursal)
                 {

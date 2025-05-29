@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Datos;
+using Negocio;
 
 namespace Vistas
 {
@@ -16,11 +17,8 @@ namespace Vistas
         {
             if (!IsPostBack)
             {
-                var db = new DBRepository();
-                var query = "SELECT s.Id_Sucursal AS [Id Sucursal], s.NombreSucursal AS [Nombre], s.DescripcionSucursal AS [Descripcion], p.DescripcionProvincia AS [Provincia], s.DireccionSucursal AS [Direccion]\r\n" +
-                    "FROM Sucursal s\r\n" +
-                    "INNER JOIN Provincia p ON p.Id_Provincia = s.Id_ProvinciaSucursal";
-                GridViewListar.DataSource = db.ListarSucursal(query);
+                NegocioSucursal negocio = new NegocioSucursal();
+                GridViewListar.DataSource = negocio.ListarSucursal();
                 GridViewListar.DataBind();
             }
         }
@@ -28,7 +26,7 @@ namespace Vistas
         protected void btnFiltrar_Click(object sender, EventArgs e)
         {
             lblMensaje.Text = "";
-            DBRepository dbRepository = new DBRepository();
+            NegocioSucursal negocio = new NegocioSucursal();
 
             if (!int.TryParse(txtFiltrar.Text, out int idSucursal))
             {
@@ -37,7 +35,7 @@ namespace Vistas
                 return;
             }
 
-            DataTable resultado = dbRepository.FiltrarSucursal(idSucursal);
+            DataTable resultado = negocio.FiltrarSucursalPorId(idSucursal);
 
             if (resultado.Rows.Count == 0)
             {
@@ -56,11 +54,8 @@ namespace Vistas
 
         protected void btnMostrarTodos_Click(object sender, EventArgs e)
         {
-            var db = new DBRepository();
-            var query = "SELECT s.Id_Sucursal AS [Id Sucursal], s.NombreSucursal AS [Nombre], s.DescripcionSucursal AS [Descripcion], p.DescripcionProvincia AS [Provincia], s.DireccionSucursal AS [Direccion]\r\n" +
-                "FROM Sucursal s\r\n" +
-                "INNER JOIN Provincia p ON p.Id_Provincia = s.Id_ProvinciaSucursal";
-            GridViewListar.DataSource = db.ListarSucursal(query);
+            NegocioSucursal negocio = new NegocioSucursal();
+            GridViewListar.DataSource = negocio.ListarSucursal();
             GridViewListar.DataBind();
             txtFiltrar.Text = "";
         }

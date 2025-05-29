@@ -4,3 +4,9 @@ C:\Users\scott\OneDrive\Desktop\TP8-PROGRA3\Entidades\obj\Debug\Entidades.csproj
 C:\Users\scott\OneDrive\Desktop\TP8-PROGRA3\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\scott\OneDrive\Desktop\TP8-PROGRA3\Entidades\obj\Debug\Entidades.dll
 C:\Users\scott\OneDrive\Desktop\TP8-PROGRA3\Entidades\obj\Debug\Entidades.pdb
+C:\Users\famil\OneDrive\Documentos\Programacion\TP8---PROGRA-3\Entidades\bin\Debug\Entidades.dll
+C:\Users\famil\OneDrive\Documentos\Programacion\TP8---PROGRA-3\Entidades\bin\Debug\Entidades.pdb
+C:\Users\famil\OneDrive\Documentos\Programacion\TP8---PROGRA-3\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\famil\OneDrive\Documentos\Programacion\TP8---PROGRA-3\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\famil\OneDrive\Documentos\Programacion\TP8---PROGRA-3\Entidades\obj\Debug\Entidades.dll
+C:\Users\famil\OneDrive\Documentos\Programacion\TP8---PROGRA-3\Entidades\obj\Debug\Entidades.pdb
